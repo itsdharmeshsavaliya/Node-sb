@@ -1,0 +1,13 @@
+export {default as Banner} from './bannerschema';
+export {default as Service} from './serviceschema';
+export {default as Future} from './futureschema';
+export {default as Gallery} from './galleryschema';
+export {default as Client} from './clientschema';
+export {default as Award} from './awardschema';
+export {default as Career} from './careerschema';
+export {default as Careerform} from './careerformschema';
+export {default as Services} from './servicesschema';
+export {default as portfolioinfoschema} from './portfolioschema';
+export {default as userprofileinfoschema} from './userprofileschema';
+export {default as Developertypesinfoschema} from './developertypesinfoschema';
+export {default as Telentfaqschema} from './telentfaqschema';

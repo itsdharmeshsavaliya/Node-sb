@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+          <form>
+            <p><b>Name:</b><%= document.name %></p>
+            <p><b>Email:</b><%= document.email %></p>
+            <p><b>Mobile No:</b><%= document.mobile_no %></p>
+            <p><b>Apply For:</b><%= document.applyingname %></p>
+            <p><b>Status:</b><%= document.status %></p>
+            <p><b>Noticeperiod:</b><%= document.noticeperiod %></p>
+            <% if(document.description) { %>
+            <p><b>description:</b><%= document.description %></p>
+            <%}%>
+           
+           
+           <%= document.file %>
+          </form>  
+          
+    </body>
+</html>
